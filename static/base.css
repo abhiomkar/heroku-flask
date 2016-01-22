@@ -247,8 +247,11 @@ pre, code {
 }
 
 footer {
-    border-top: 1px solid #f1f1f1;
-    padding-top: 20px;
-    margin-top: 250px;
-    text-align: center;
+  color: #aaa;
+  margin-top: 250px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
 }
