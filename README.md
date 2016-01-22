@@ -11,21 +11,25 @@ Install
 Setup
 -----
 
-    - Clone this starter kit
+ - Clone this starter kit 
 
-    git clone https://github.com/abhiomkar/heroku-flask.git
+        git clone https://github.com/abhiomkar/heroku-flask.git
 
+ - Login to Heroku
 
-    - Login to Heroku
+        heroku login
 
-    heroku login
+ - Create Heroku App
 
-    - Create Heroku App
+        heroku create
 
-    heroku create
+ - Deploy to Heroku
 
-    - Deploy to Heroku
+        git push heroku master
 
-    git push heroku master
+ - You're done! You should see a link to your heroku app after successful deploy. :-)
 
-    - You're done! You should see a link to your heroku app after successful deploy. :-)
+Demo
+----
+
+https://heroku-flask.herokuapp.com/
