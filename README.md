@@ -6,6 +6,8 @@ Install
 
  - Install Heroku
  - Install Pip
+ - Install virtualenvwrapper
+ - Install [pip-save](https://github.com/abhiomkar/pip-save)
  - Install Flask
 
 Setup
@@ -23,11 +25,31 @@ Setup
 
         heroku create
 
+Development
+-----------
+
+ - Create Python virtual enviroment using pip-save tool & install all deps
+
+        pip init
+        pip install
+ 
+ - Run app locally
+
+        python app.py
+        # or
+        heroku local
+ 
+ - Hack! Hack!
+  
+
+Deploy
+------
+
  - Deploy to Heroku
 
         git push heroku master
 
- - You're done! You should see a link to your heroku app after successful deploy. :-)
+ - You should see a link to your heroku app after successful deploy.
 
 Demo
 ----
