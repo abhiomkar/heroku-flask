@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="static/main.css">
+
+  <title>Abhinay Omkar - {% block title %}{% endblock %}</title>
+</head>
+
+<body>
+
+<section id="main-container">
+    <header id="header">
+      <h1 class="main-title">Abhinay Omkar</h1>
+      <h3 class="main-description">@abhiomkar</h3>
+    </header>
+    <section id="content">
+        {% block content %}{% endblock %}
+    </section>
+    <footer>
+        Made by <a href="http://abhiomkar.in">Abhinay Omkar</a>
+    </footer>
+</section>
+
+</body>
+</html>
